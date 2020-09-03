@@ -1,0 +1,88 @@
+/*main style*/
+
+
+/*@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap";
+*/
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css";
+html {
+    font-size: 0.5cm;
+}
+
+body {
+    color: rgba(19, 12, 22, 0.5);
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    /*
+    font-weight: 400;
+*/
+}
+
+.banner {
+    width: 90vw;
+    height: 35vh;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2cm;
+}
+
+p {
+    background-color: hsla(56, 70%, 70%, 0.5);
+}
+
+div {
+    color: grey;
+    width: 100%;
+}
+
+.product ul {
+    list-style: none;
+}
+
+.product ul li {
+    display: inline;
+}
+
+.navbar ol {
+    list-style: none;
+}
+
+.navbar ol li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    padding-right: 1.2em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.col-4 {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
