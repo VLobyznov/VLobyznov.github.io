@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col {
+    width: 50%;
+}
+
+.row {
+    width: 100%;
+}
+
+.cf {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
