@@ -84,6 +84,27 @@ div {
     text-align: center;
 }
 
+.col-5 {
+    width: 25%;
+    float: left;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.col-6 {
+    width: 25%;
+    float: left;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.col-7 {
+    width: 25%;
+    float: left;
+    justify-content: space-around;
+    text-align: center;
+}
+
 header h2 {
     text-align: center;
 }

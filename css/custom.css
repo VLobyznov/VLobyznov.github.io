@@ -6,6 +6,20 @@
     margin-left: auto;
 }
 
+@media (min-widht:473px) {
+    .container {
+        max-width: 433px;
+        ;
+    }
+}
+
+@media (min-widht:606px) {
+    .container {
+        max-width: 566px;
+        ;
+    }
+}
+
 @media (min-widht:640px) {
     .container {
         max-width: 600px;
